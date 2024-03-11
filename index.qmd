@@ -1,7 +1,56 @@
 ---
-title: "coastwatchhub"
+title: "CoastWatchHub"
 ---
 
-This is a Quarto website.
+Welcome to CoastWatch Hub User Page.  CoastWatch Hub is a JupyterHub for CoastWatch training course.   
+On CoastWatch Hub, python and R studio as well as required packages are installed, so users can focus on learning the materials. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Access Using Google Mail
+
+CoastWatch Hub uses Google mail and the email address needs to be added by the Training Coordinator.  Please contact your training coordinator for access.
+
+
+![CoastWatch Hub Login Page](images/login_page.png){width=400}
+
+
+## Server Options
+
+Once logged in, users can choose a server to work on the training materials. Select the server for your preference. 
+
+![Users will see the Server Option page to choose server from](images/server_options.png){width=700}
+
+
+### Python and R 
+Click on Python or RStudio from Notebook section and it will start python notebook or RStudio IDE respectively.
+
+
+![Python and R Main Page](images/python_r.png){width=700}
+
+## CoastWatchHub folders
+
+CoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.
+
+There are two permenant folders on CoastWatch Hub: (please ignore lost+found)
+
+* __shared/__ : read only folder.  Training materials will be stored here
+* __shared-public/__ : community folder where users can share files among other users
+
+![Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page](images/cw_folders.png){width=400}
+
+In addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.
+
+:::{.callout-warning}
+Any files outside of Shared and Shared-Public will not be saved.  Please make sure to download all your working files before ending the CoastWatch Hub session.
+:::
+
+## How to save working files
+Shared-Public/ folder is not intended to store user's working files.  Students can download and upload files  
+
+* directly from CoastWatch Hub Page.
+* using git for git repositories
+
+![To Download, select a file and right click for Download option](images/download.png){width=400}
+
+![To Upload, Click on the upload button](images/upload.png){width=400 .lightbox}
+
