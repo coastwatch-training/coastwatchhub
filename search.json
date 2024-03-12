@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "CoastWatchHub",
@@ -32,7 +39,21 @@
     "href": "index.html#how-to-save-working-files",
     "title": "CoastWatchHub",
     "section": "How to save working files",
-    "text": "How to save working files\nShared-Public/ folder is not intended to store user’s working files. Students can download and upload files\n\ndirectly from CoastWatch Hub Page.\nusing git for git repositories\n\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\n\nTo Upload, Click on the upload button\n\n\n\n\n\nTo Upload, Click on the upload button"
+    "text": "How to save working files\nShared-Public/ folder is not intended to store user’s working files. Students can download and upload files\n\ndirectly from CoastWatch Hub Page.\nusing git for git repositories\n\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\n\nTo Upload, Click on the upload button"
+  },
+  {
+    "objectID": "index.html#how-to-exist-from-a-server",
+    "href": "index.html#how-to-exist-from-a-server",
+    "title": "CoastWatchHub",
+    "section": "How to exist from a server",
+    "text": "How to exist from a server"
+  },
+  {
+    "objectID": "index.html#how-to-run-coastwatch-tutorials",
+    "href": "index.html#how-to-run-coastwatch-tutorials",
+    "title": "CoastWatchHub",
+    "section": "How to run CoastWatch Tutorials",
+    "text": "How to run CoastWatch Tutorials\n\n\n\nTo Upload, Click on the upload button"
   },
   {
     "objectID": "howto.html",
@@ -40,12 +61,5 @@
     "title": "coastwatchhub",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
