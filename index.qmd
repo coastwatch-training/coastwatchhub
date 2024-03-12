@@ -2,13 +2,12 @@
 title: "CoastWatchHub"
 ---
 
-Welcome to CoastWatch Hub User Page.  CoastWatch Hub is a JupyterHub for CoastWatch training course.   
-On CoastWatch Hub, python and R studio as well as required packages are installed, so users can focus on learning the materials. 
-
+Welcome to CoastWatch Hub User Page.  
+CoastWatch Hub is a JupyterHub for CoastWatch training course.   On CoastWatch Hub, Python and RStudio are set up for students to run CoastWatch tutorials.
 
 ## Access Using Google Mail
 
-CoastWatch Hub uses Google mail and the email address needs to be added by the Training Coordinator.  Please contact your training coordinator for access.
+Students can access CoastWatch Hub using Google email address. First, the training coordinator would need to add student's email to the hub list.   Please contact your training coordinator for access.
 
 
 ![CoastWatch Hub Login Page](images/login_page.png){width=400}
@@ -16,14 +15,15 @@ CoastWatch Hub uses Google mail and the email address needs to be added by the T
 
 ## Server Options
 
-Once logged in, users can choose a server to work on the training materials. Select the server for your preference. 
+Once logged in, users can choose a server to work on the training materials. We have two servers: One server has QGIS and the other has Python and R Studio.
 
 ![Users will see the Server Option page to choose server from](images/server_options.png){width=700}
 
 
 ### Python and R 
-Click on Python or RStudio from Notebook section and it will start python notebook or RStudio IDE respectively.
+For Python users, click on Python icon from Notebook section to start jupyter notebook.
 
+For R users, click on RStudio icon from Notebook section to start R Studio. 
 
 ![Python and R Main Page](images/python_r.png){width=700}
 
@@ -44,6 +44,10 @@ In addition to the two folders, user can create temporary folders and files duri
 Any files outside of Shared and Shared-Public will not be saved.  Please make sure to download all your working files before ending the CoastWatch Hub session.
 :::
 
+## How to run CoastWatch Tutorials
+* First, student must copy interested files or folders out of the Shared/CoastWatch-Tutorial folder.
+* Once copied to your own space, you can then run the code.
+
 ## How to save working files
 Shared-Public/ folder is not intended to store user's working files.  Students can download and upload files  
 
@@ -54,6 +58,8 @@ Shared-Public/ folder is not intended to store user's working files.  Students c
 
 ![To Upload, Click on the upload button](images/upload.png){width=400 .lightbox}
 
-## How to exist from a server
+## How to exit from a server
 
 ## How to run CoastWatch Tutorials
+
+## How to 
