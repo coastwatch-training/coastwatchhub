@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "coastwatchhub",
+    "title": "CoastWatchHub",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to CoastWatch Hub User Page. CoastWatch Hub is a JupyterHub for CoastWatch training course.\nOn CoastWatch Hub, python and R studio as well as required packages are installed, so users can focus on learning the materials."
+  },
+  {
+    "objectID": "index.html#access-using-google-mail",
+    "href": "index.html#access-using-google-mail",
+    "title": "CoastWatchHub",
+    "section": "Access Using Google Mail",
+    "text": "Access Using Google Mail\nCoastWatch Hub uses Google mail and the email address needs to be added by the Training Coordinator. Please contact your training coordinator for access.\n\n\n\nCoastWatch Hub Login Page"
+  },
+  {
+    "objectID": "index.html#server-options",
+    "href": "index.html#server-options",
+    "title": "CoastWatchHub",
+    "section": "Server Options",
+    "text": "Server Options\nOnce logged in, users can choose a server to work on the training materials. Select the server for your preference.\n\n\n\nUsers will see the Server Option page to choose server from\n\n\n\nPython and R\nClick on Python or RStudio from Notebook section and it will start python notebook or RStudio IDE respectively.\n\n\n\nPython and R Main Page"
+  },
+  {
+    "objectID": "index.html#coastwatchhub-folders",
+    "href": "index.html#coastwatchhub-folders",
+    "title": "CoastWatchHub",
+    "section": "CoastWatchHub folders",
+    "text": "CoastWatchHub folders\nCoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.\nThere are two permenant folders on CoastWatch Hub: (please ignore lost+found)\n\nshared/ : read only folder. Training materials will be stored here\nshared-public/ : community folder where users can share files among other users\n\n\n\n\nTwo permenant CoastWatch folders shown on the left side of CoastWatch Hub page\n\n\nIn addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.\n\n\n\n\n\n\nWarning\n\n\n\nAny files outside of Shared and Shared-Public will not be saved. Please make sure to download all your working files before ending the CoastWatch Hub session."
+  },
+  {
+    "objectID": "index.html#how-to-save-working-files",
+    "href": "index.html#how-to-save-working-files",
+    "title": "CoastWatchHub",
+    "section": "How to save working files",
+    "text": "How to save working files\nShared-Public/ folder is not intended to store user’s working files. Students can download and upload files\n\ndirectly from CoastWatch Hub Page.\nusing git for git repositories\n\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\n\nTo Upload, Click on the upload button\n\n\n\n\n\nTo Upload, Click on the upload button"
   },
   {
     "objectID": "howto.html",
@@ -19,5 +40,12 @@
     "title": "coastwatchhub",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

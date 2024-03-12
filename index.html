@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>coastwatchhub</title>
+<title>Coastwatch Hub - CoastWatchHub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">coastwatchhub</span>
+    <span class="navbar-title">Coastwatch Hub</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,10 +94,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -108,14 +107,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#access-using-google-mail" id="toc-access-using-google-mail" class="nav-link active" data-scroll-target="#access-using-google-mail">Access Using Google Mail</a></li>
+  <li><a href="#server-options" id="toc-server-options" class="nav-link" data-scroll-target="#server-options">Server Options</a>
+  <ul class="collapse">
+  <li><a href="#python-and-r" id="toc-python-and-r" class="nav-link" data-scroll-target="#python-and-r">Python and R</a></li>
+  </ul></li>
+  <li><a href="#coastwatchhub-folders" id="toc-coastwatchhub-folders" class="nav-link" data-scroll-target="#coastwatchhub-folders">CoastWatchHub folders</a></li>
+  <li><a href="#how-to-save-working-files" id="toc-how-to-save-working-files" class="nav-link" data-scroll-target="#how-to-save-working-files">How to save working files</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">coastwatchhub</h1>
+<h1 class="title">CoastWatchHub</h1>
 </div>
 
 
@@ -132,10 +143,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>Welcome to CoastWatch Hub User Page. CoastWatch Hub is a JupyterHub for CoastWatch training course.<br>
+On CoastWatch Hub, python and R studio as well as required packages are installed, so users can focus on learning the materials.</p>
+<section id="access-using-google-mail" class="level2">
+<h2 class="anchored" data-anchor-id="access-using-google-mail">Access Using Google Mail</h2>
+<p>CoastWatch Hub uses Google mail and the email address needs to be added by the Training Coordinator. Please contact your training coordinator for access.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/login_page.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>CoastWatch Hub Login Page</figcaption>
+</figure>
+</div>
+</section>
+<section id="server-options" class="level2">
+<h2 class="anchored" data-anchor-id="server-options">Server Options</h2>
+<p>Once logged in, users can choose a server to work on the training materials. Select the server for your preference.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/server_options.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Users will see the Server Option page to choose server from</figcaption>
+</figure>
+</div>
+<section id="python-and-r" class="level3">
+<h3 class="anchored" data-anchor-id="python-and-r">Python and R</h3>
+<p>Click on Python or RStudio from Notebook section and it will start python notebook or RStudio IDE respectively.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/python_r.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Python and R Main Page</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="coastwatchhub-folders" class="level2">
+<h2 class="anchored" data-anchor-id="coastwatchhub-folders">CoastWatchHub folders</h2>
+<p>CoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.</p>
+<p>There are two permenant folders on CoastWatch Hub: (please ignore lost+found)</p>
+<ul>
+<li><strong>shared/</strong> : read only folder. Training materials will be stored here</li>
+<li><strong>shared-public/</strong> : community folder where users can share files among other users</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/cw_folders.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page</figcaption>
+</figure>
+</div>
+<p>In addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Any files outside of Shared and Shared-Public will not be saved. Please make sure to download all your working files before ending the CoastWatch Hub session.</p>
+</div>
+</div>
+</section>
+<section id="how-to-save-working-files" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-save-working-files">How to save working files</h2>
+<p>Shared-Public/ folder is not intended to store user’s working files. Students can download and upload files</p>
+<ul>
+<li>directly from CoastWatch Hub Page.</li>
+<li>using git for git repositories</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/download.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>To Download, select a file and right click for Download option</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/upload.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="To Upload, Click on the upload button"><img src="images/upload.png" class="img-fluid figure-img" width="400" alt="To Upload, Click on the upload button"></a></p>
+<figcaption>To Upload, Click on the upload button</figcaption>
+</figure>
+</div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">To Upload, Click on the upload button</span>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -548,6 +641,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
