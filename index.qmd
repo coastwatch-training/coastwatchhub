@@ -54,3 +54,6 @@ Shared-Public/ folder is not intended to store user's working files.  Students c
 
 ![To Upload, Click on the upload button](images/upload.png){width=400 .lightbox}
 
+## How to exist from a server
+
+## How to run CoastWatch Tutorials
