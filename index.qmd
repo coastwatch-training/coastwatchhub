@@ -6,7 +6,7 @@ Welcome to CoastWatch Hub User Page.
 CoastWatch Hub is a JupyterHub for CoastWatch training course.   On CoastWatch Hub, Python and RStudio are set up for students to run CoastWatch tutorials.
 
 ## Access Using Google Mail
-
+fdafdfadfad
 Students can access CoastWatch Hub using Google email address. First, the training coordinator would need to add student's email to the hub list.   Please contact your training coordinator for access.
 
 
