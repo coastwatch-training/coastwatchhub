@@ -78,16 +78,25 @@ CoastWatch Hub is not intended to store students files, thus it's strongly encou
 
 Users can download a file to their local computer by right-clicking on the file and selecting Download.
 
-![To Download, select a file and right click for Download option](images/download.png){width=400}
+![To Download, select a file and right click for Download option](images/download.png){width=400 .lightbox}
 
 
 ### Upload files
 
 To upload a file, users can click on the "Upload File" icon, which will open a file browser.
-![To Upload, Click on the upload button](images/upload.png){width=400 .lightbox}
+<img src="images/upload.png" style="border: 1px solid  #999; width: 500px;" />
 
-## How to exit from a server
+## Exit from the current server
 
-## How to run CoastWatch Tutorials
+To exit from the current server and to go back to the server option page
 
-## How to 
+1. Select "Hub Control Panel" from File on the top menu bar.
+
+
+<img src="images/exit_server.png" style="border: 1px solid  #999; width: 500px;" />
+
+
+
+2. Select "Stop My Server" 
+
+<img src="images/stop_server.png" style="border: 1px solid  #999; width: 500px;" />
