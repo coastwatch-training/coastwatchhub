@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Coastwatch Hub - CoastWatchHub</title>
+<title>Coastwatch Hub - User Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -111,14 +111,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#access-using-google-mail" id="toc-access-using-google-mail" class="nav-link active" data-scroll-target="#access-using-google-mail">Access Using Google Mail</a></li>
-  <li><a href="#server-options" id="toc-server-options" class="nav-link" data-scroll-target="#server-options">Server Options</a>
-  <ul class="collapse">
-  <li><a href="#python-and-r" id="toc-python-and-r" class="nav-link" data-scroll-target="#python-and-r">Python and R</a></li>
-  </ul></li>
+  <li><a href="#accessing-coastwatch-hub" id="toc-accessing-coastwatch-hub" class="nav-link active" data-scroll-target="#accessing-coastwatch-hub">Accessing CoastWatch Hub</a></li>
+  <li><a href="#server-options" id="toc-server-options" class="nav-link" data-scroll-target="#server-options">Server Options</a></li>
+  <li><a href="#download-coastwatch-tutorials" id="toc-download-coastwatch-tutorials" class="nav-link" data-scroll-target="#download-coastwatch-tutorials">Download CoastWatch Tutorials</a></li>
+  <li><a href="#r-and-python-users" id="toc-r-and-python-users" class="nav-link" data-scroll-target="#r-and-python-users">R and Python Users</a></li>
   <li><a href="#coastwatchhub-folders" id="toc-coastwatchhub-folders" class="nav-link" data-scroll-target="#coastwatchhub-folders">CoastWatchHub folders</a></li>
   <li><a href="#how-to-run-coastwatch-tutorials" id="toc-how-to-run-coastwatch-tutorials" class="nav-link" data-scroll-target="#how-to-run-coastwatch-tutorials">How to run CoastWatch Tutorials</a></li>
-  <li><a href="#how-to-save-working-files" id="toc-how-to-save-working-files" class="nav-link" data-scroll-target="#how-to-save-working-files">How to save working files</a></li>
+  <li><a href="#how-to-save-working-files" id="toc-how-to-save-working-files" class="nav-link" data-scroll-target="#how-to-save-working-files">How to save working files</a>
+  <ul class="collapse">
+  <li><a href="#download-files" id="toc-download-files" class="nav-link" data-scroll-target="#download-files">Download files</a></li>
+  <li><a href="#upload-files" id="toc-upload-files" class="nav-link" data-scroll-target="#upload-files">Upload files</a></li>
+  </ul></li>
   <li><a href="#how-to-exit-from-a-server" id="toc-how-to-exit-from-a-server" class="nav-link" data-scroll-target="#how-to-exit-from-a-server">How to exit from a server</a></li>
   <li><a href="#how-to-run-coastwatch-tutorials-1" id="toc-how-to-run-coastwatch-tutorials-1" class="nav-link" data-scroll-target="#how-to-run-coastwatch-tutorials-1">How to run CoastWatch Tutorials</a></li>
   <li><a href="#how-to" id="toc-how-to" class="nav-link" data-scroll-target="#how-to">How to</a></li>
@@ -130,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CoastWatchHub</h1>
+<h1 class="title">User Guide</h1>
 </div>
 
 
@@ -147,66 +150,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to CoastWatch Hub User Page.<br>
-CoastWatch Hub is a JupyterHub for CoastWatch training course. On CoastWatch Hub, Python and RStudio are set up for students to run CoastWatch tutorials.</p>
-<section id="access-using-google-mail" class="level2">
-<h2 class="anchored" data-anchor-id="access-using-google-mail">Access Using Google Mail</h2>
-<p>Students can access CoastWatch Hub using Google email address. First, the training coordinator would need to add student’s email to the hub list. Please contact your training coordinator for access.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/login_page.png" class="img-fluid figure-img" width="400"></p>
-<figcaption>CoastWatch Hub Login Page</figcaption>
-</figure>
-</div>
+<p>Welcome to the CoastWatch Hub User Guide.</p>
+<p>CoastWatch Hub is a learning platform based on JupyterHub, designed specifically for the CoastWatch training course.</p>
+<p>Within CoastWatch Hub, Python, RStudio, and QGIS are installed, along with all the required packages, ensuring a seamless learning experience.</p>
+<section id="accessing-coastwatch-hub" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-coastwatch-hub">Accessing CoastWatch Hub</h2>
+<p>The CoastWatch training presentation will cover the process of gaining access to the CoastWatch Hub. If you were unable to attend the presentation, we encourage you to reach out to one of your instructors for assistance.</p>
 </section>
 <section id="server-options" class="level2">
 <h2 class="anchored" data-anchor-id="server-options">Server Options</h2>
-<p>Once logged in, users can choose a server to work on the training materials. We have two servers: One server has QGIS and the other has Python and R Studio.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/server_options.png" class="img-fluid figure-img" width="700"></p>
-<figcaption>Users will see the Server Option page to choose server from</figcaption>
-</figure>
-</div>
-<section id="python-and-r" class="level3">
-<h3 class="anchored" data-anchor-id="python-and-r">Python and R</h3>
-<p>For Python users, click on Python icon from Notebook section to start jupyter notebook.</p>
-<p>For R users, click on RStudio icon from Notebook section to start R Studio.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/python_r.png" class="img-fluid figure-img" width="700"></p>
-<figcaption>Python and R Main Page</figcaption>
-</figure>
-</div>
+<p>After logging in, users will have the opportunity to select a server to access and work with the CoastWatch training materials. We provide two server options to cater to different software preferences. Please choose the server that best aligns with your preferred software tools for the training.</p>
+<ul>
+<li>QGIS</li>
+<li>Python and RStudio</li>
+</ul>
+<p><img src="images/server_options.png" style="border: 1px solid  #999; width: 500px;"></p>
 </section>
+<section id="download-coastwatch-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="download-coastwatch-tutorials">Download CoastWatch Tutorials</h2>
+<p>CoastWatch Tutorials are organized by tutorial topics with R and Python subdirectories that include the tutorials.</p>
+<p>Once the server is up and running, users can proceed to download the CoastWatch tutorials. One of the instructors will demonstrate how to pull (download) the CoastWatch tutorials from the Github repository.</p>
+<p>We also recommend watching the instructional video created by Eli Holmes, titled “Set up CoastWatch tutorial”. The specific segment that demonstrates the download process starts at the 3:40 minute mark.</p>
+<p><a href="https://youtu.be/FqzaVS7UpHs?start=220" title="Now in Android: 55"><img src="images/jupyter_github_demo.png" width="50%"></a></p>
+<p>For R users, click on RStudio icon from Notebook section to start R Studio.</p>
+<ol type="1">
+<li><p>First make sure you are in the user’s home directory</p></li>
+<li><p>Click on the Git icon -&gt; Clone a Repository</p></li>
+<li><p>Enter the following URL : https://github.com/coastwatch-training/CoastWatch-Tutorials</p></li>
+<li><p>Click Clone</p></li>
+</ol>
+</section>
+<section id="r-and-python-users" class="level2">
+<h2 class="anchored" data-anchor-id="r-and-python-users">R and Python Users</h2>
+<p>To access Python tutorials, users can easily find and click on a Python file within the tutorial directory to open it.</p>
+<p>For R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it.</p>
+<p><img src="images/python_r.png" style="border:1px solid #999; width: 500px"></p>
 </section>
 <section id="coastwatchhub-folders" class="level2">
 <h2 class="anchored" data-anchor-id="coastwatchhub-folders">CoastWatchHub folders</h2>
 <p>CoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.</p>
-<p>There are two permenant folders on CoastWatch Hub: (please ignore lost+found)</p>
 <ul>
-<li><strong>shared/</strong> : read only folder. Training materials will be stored here</li>
-<li><strong>shared-public/</strong> : community folder where users can share files among other users</li>
+<li><strong>shared/</strong> : This is a space where Instructors will share files with students</li>
+<li><strong>shared-public/</strong> : This is a space where students can drop files to share with other students or instructors</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/cw_folders.png" class="img-fluid figure-img" width="400"></p>
 <figcaption>Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page</figcaption>
 </figure>
-</div>
-<p>In addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Any files outside of Shared and Shared-Public will not be saved. Please make sure to download all your working files before ending the CoastWatch Hub session.</p>
-</div>
 </div>
 </section>
 <section id="how-to-run-coastwatch-tutorials" class="level2">
@@ -218,23 +209,21 @@ Warning
 </section>
 <section id="how-to-save-working-files" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-save-working-files">How to save working files</h2>
-<p>Shared-Public/ folder is not intended to store user’s working files. Students can download and upload files</p>
-<ul>
-<li>directly from CoastWatch Hub Page.</li>
-<li>using git for git repositories</li>
-</ul>
+<p>CoastWatch Hub is not intended to store students files, thus it’s strongly encourage to back up and download working files at the end of your work and upload when you start working again.</p>
+<section id="download-files" class="level3">
+<h3 class="anchored" data-anchor-id="download-files">Download files</h3>
+<p>Users can download a file to their local computer by right-clicking on the file and selecting Download.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/download.png" class="img-fluid figure-img" width="400"></p>
 <figcaption>To Download, select a file and right click for Download option</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/upload.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="To Upload, Click on the upload button"><img src="images/upload.png" class="img-fluid figure-img" width="400" alt="To Upload, Click on the upload button"></a></p>
-<figcaption>To Upload, Click on the upload button</figcaption>
-</figure>
-</div>
+</section>
+<section id="upload-files" class="level3">
+<h3 class="anchored" data-anchor-id="upload-files">Upload files</h3>
+<p>To upload a file, users can click on the “Upload File” icon, which will open a file browser. <a href="images/upload.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="To Upload, Click on the upload button"><img src="images/upload.png" class="img-fluid" width="400" alt="To Upload, Click on the upload button"></a></p>
+</section>
 </section>
 <section id="how-to-exit-from-a-server" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-exit-from-a-server">How to exit from a server</h2>
@@ -246,9 +235,6 @@ Warning
 <h2 class="anchored" data-anchor-id="how-to">How to</h2>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">To Upload, Click on the upload button</span>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -662,7 +648,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

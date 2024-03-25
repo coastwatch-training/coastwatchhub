@@ -2,65 +2,79 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "",
-    "text": "Welcome to CoastWatch Hub User Page.\nCoastWatch Hub is a JupyterHub for CoastWatch training course. On CoastWatch Hub, Python and RStudio are set up for students to run CoastWatch tutorials."
+    "text": "Welcome to the CoastWatch Hub User Guide.\nCoastWatch Hub is a learning platform based on JupyterHub, designed specifically for the CoastWatch training course.\nWithin CoastWatch Hub, Python, RStudio, and QGIS are installed, along with all the required packages, ensuring a seamless learning experience."
   },
   {
-    "objectID": "index.html#access-using-google-mail",
-    "href": "index.html#access-using-google-mail",
-    "title": "CoastWatchHub",
-    "section": "Access Using Google Mail",
-    "text": "Access Using Google Mail\nStudents can access CoastWatch Hub using Google email address. First, the training coordinator would need to add student’s email to the hub list. Please contact your training coordinator for access.\n\n\n\nCoastWatch Hub Login Page"
+    "objectID": "index.html#accessing-coastwatch-hub",
+    "href": "index.html#accessing-coastwatch-hub",
+    "title": "User Guide",
+    "section": "Accessing CoastWatch Hub",
+    "text": "Accessing CoastWatch Hub\nThe CoastWatch training presentation will cover the process of gaining access to the CoastWatch Hub. If you were unable to attend the presentation, we encourage you to reach out to one of your instructors for assistance."
   },
   {
     "objectID": "index.html#server-options",
     "href": "index.html#server-options",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "Server Options",
-    "text": "Server Options\nOnce logged in, users can choose a server to work on the training materials. We have two servers: One server has QGIS and the other has Python and R Studio.\n\n\n\nUsers will see the Server Option page to choose server from\n\n\n\nPython and R\nFor Python users, click on Python icon from Notebook section to start jupyter notebook.\nFor R users, click on RStudio icon from Notebook section to start R Studio.\n\n\n\nPython and R Main Page"
+    "text": "Server Options\nAfter logging in, users will have the opportunity to select a server to access and work with the CoastWatch training materials. We provide two server options to cater to different software preferences. Please choose the server that best aligns with your preferred software tools for the training.\n\nQGIS\nPython and RStudio"
+  },
+  {
+    "objectID": "index.html#download-coastwatch-tutorials",
+    "href": "index.html#download-coastwatch-tutorials",
+    "title": "User Guide",
+    "section": "Download CoastWatch Tutorials",
+    "text": "Download CoastWatch Tutorials\nCoastWatch Tutorials are organized by tutorial topics with R and Python subdirectories that include the tutorials.\nOnce the server is up and running, users can proceed to download the CoastWatch tutorials. One of the instructors will demonstrate how to pull (download) the CoastWatch tutorials from the Github repository.\nWe also recommend watching the instructional video created by Eli Holmes, titled “Set up CoastWatch tutorial”. The specific segment that demonstrates the download process starts at the 3:40 minute mark.\n\nFor R users, click on RStudio icon from Notebook section to start R Studio.\n\nFirst make sure you are in the user’s home directory\nClick on the Git icon -&gt; Clone a Repository\nEnter the following URL : https://github.com/coastwatch-training/CoastWatch-Tutorials\nClick Clone"
+  },
+  {
+    "objectID": "index.html#r-and-python-users",
+    "href": "index.html#r-and-python-users",
+    "title": "User Guide",
+    "section": "R and Python Users",
+    "text": "R and Python Users\nTo access Python tutorials, users can easily find and click on a Python file within the tutorial directory to open it.\nFor R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it."
   },
   {
     "objectID": "index.html#coastwatchhub-folders",
     "href": "index.html#coastwatchhub-folders",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "CoastWatchHub folders",
-    "text": "CoastWatchHub folders\nCoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.\nThere are two permenant folders on CoastWatch Hub: (please ignore lost+found)\n\nshared/ : read only folder. Training materials will be stored here\nshared-public/ : community folder where users can share files among other users\n\n\n\n\nTwo permenant CoastWatch folders shown on the left side of CoastWatch Hub page\n\n\nIn addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.\n\n\n\n\n\n\nWarning\n\n\n\nAny files outside of Shared and Shared-Public will not be saved. Please make sure to download all your working files before ending the CoastWatch Hub session."
+    "text": "CoastWatchHub folders\nCoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.\n\nshared/ : This is a space where Instructors will share files with students\nshared-public/ : This is a space where students can drop files to share with other students or instructors\n\n\n\n\nTwo permenant CoastWatch folders shown on the left side of CoastWatch Hub page"
   },
   {
     "objectID": "index.html#how-to-run-coastwatch-tutorials",
     "href": "index.html#how-to-run-coastwatch-tutorials",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "How to run CoastWatch Tutorials",
     "text": "How to run CoastWatch Tutorials\n\nFirst, student must copy interested files or folders out of the Shared/CoastWatch-Tutorial folder.\nOnce copied to your own space, you can then run the code."
   },
   {
     "objectID": "index.html#how-to-save-working-files",
     "href": "index.html#how-to-save-working-files",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "How to save working files",
-    "text": "How to save working files\nShared-Public/ folder is not intended to store user’s working files. Students can download and upload files\n\ndirectly from CoastWatch Hub Page.\nusing git for git repositories\n\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\n\nTo Upload, Click on the upload button"
+    "text": "How to save working files\nCoastWatch Hub is not intended to store students files, thus it’s strongly encourage to back up and download working files at the end of your work and upload when you start working again.\n\nDownload files\nUsers can download a file to their local computer by right-clicking on the file and selecting Download.\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\nUpload files\nTo upload a file, users can click on the “Upload File” icon, which will open a file browser."
   },
   {
     "objectID": "index.html#how-to-exit-from-a-server",
     "href": "index.html#how-to-exit-from-a-server",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "How to exit from a server",
     "text": "How to exit from a server"
   },
   {
     "objectID": "index.html#how-to-run-coastwatch-tutorials-1",
     "href": "index.html#how-to-run-coastwatch-tutorials-1",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "How to run CoastWatch Tutorials",
     "text": "How to run CoastWatch Tutorials"
   },
   {
     "objectID": "index.html#how-to",
     "href": "index.html#how-to",
-    "title": "CoastWatchHub",
+    "title": "User Guide",
     "section": "How to",
-    "text": "How to\n\n\n\nTo Upload, Click on the upload button"
+    "text": "How to"
   },
   {
     "objectID": "howto.html",
