@@ -24,7 +24,7 @@ After logging in, users will have the opportunity to select a server to access a
 * QGIS
 * Python and RStudio
 
-<img src="images/server_options.png" style="border: 1px solid  #999; width: 500px;" />
+![User can choose a server with preferred software](images/server_options.png){width=500 .img_border .lightbox}
 
 ## Download CoastWatch Tutorials
 
@@ -54,7 +54,7 @@ To access Python tutorials, users can easily find and click on a Python file wit
 For R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it.
 
 
-<img src="images/python_r.png" style="border:1px solid #999; width: 500px" />
+![R and Python Server Page](images/python_r.png){width=500 .img_border .lightbox}
 
 
 ## CoastWatchHub folders
@@ -64,7 +64,7 @@ CoastWatch has two main folders for the training session and they can be found o
 * __shared/__ : This is a space where Instructors will share files with students
 * __shared-public/__ : This is a space where students can drop files to share with other students or instructors
 
-![Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page](images/cw_folders.png){width=400}
+![Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page](images/cw_folders.png){width=500 .img_border .lightbox}
 
 
 ## How to run CoastWatch Tutorials
@@ -78,13 +78,15 @@ CoastWatch Hub is not intended to store students files, thus it's strongly encou
 
 Users can download a file to their local computer by right-clicking on the file and selecting Download.
 
-![To Download, select a file and right click for Download option](images/download.png){width=400 .lightbox}
+![To Download, select a file and right click for Download option](images/download.png){width=500 .img_border .lightbox}
 
 
 ### Upload files
 
 To upload a file, users can click on the "Upload File" icon, which will open a file browser.
-<img src="images/upload.png" style="border: 1px solid  #999; width: 500px;" />
+
+![To Upload a file, click on the "Upload File" icon](images/upload.png){width=500 .img_border .lightbox}
+
 
 ## Exit from the current server
 
@@ -93,10 +95,11 @@ To exit from the current server and to go back to the server option page
 1. Select "Hub Control Panel" from File on the top menu bar.
 
 
-<img src="images/exit_server.png" style="border: 1px solid  #999; width: 500px;" />
+![To go back to the server option page, select "Hub Control Panel"](images/exit_server.png){width=500 .img_border .lightbox}
 
 
 
 2. Select "Stop My Server" 
 
-<img src="images/stop_server.png" style="border: 1px solid  #999; width: 500px;" />
+![Selecting "Stop My Server" takes back to the Server Option page](images/stop_server.png){width=500 .img_border .lightbox}
+
