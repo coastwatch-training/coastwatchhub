@@ -18,7 +18,7 @@
     "href": "index.html#server-options",
     "title": "User Guide",
     "section": "Server Options",
-    "text": "Server Options\nAfter logging in, users will have the opportunity to select a server to access and work with the CoastWatch training materials. We provide two server options to cater to different software preferences. Please choose the server that best aligns with your preferred software tools for the training.\n\nQGIS\nPython and RStudio"
+    "text": "Server Options\nAfter logging in, users will have the opportunity to select a server to access and work with the CoastWatch training materials. We provide two server options to cater to different software preferences. Please choose the server that best aligns with your preferred software tools for the training.\n\nQGIS\nPython and RStudio\n\n\n\n\nUser can choose a server with preferred software"
   },
   {
     "objectID": "index.html#download-coastwatch-tutorials",
@@ -32,7 +32,7 @@
     "href": "index.html#r-and-python-users",
     "title": "User Guide",
     "section": "R and Python Users",
-    "text": "R and Python Users\nTo access Python tutorials, users can easily find and click on a Python file within the tutorial directory to open it.\nFor R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it."
+    "text": "R and Python Users\nTo access Python tutorials, users can easily find and click on a Python file within the tutorial directory to open it.\nFor R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it.\n\n\n\nR and Python Server Page"
   },
   {
     "objectID": "index.html#coastwatchhub-folders",
@@ -53,14 +53,14 @@
     "href": "index.html#how-to-save-working-files",
     "title": "User Guide",
     "section": "How to save working files",
-    "text": "How to save working files\nCoastWatch Hub is not intended to store students files, thus it’s strongly encourage to back up and download working files at the end of your work and upload when you start working again.\n\nDownload files\nUsers can download a file to their local computer by right-clicking on the file and selecting Download.\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\nUpload files\nTo upload a file, users can click on the “Upload File” icon, which will open a file browser."
+    "text": "How to save working files\nCoastWatch Hub is not intended to store students files, thus it’s strongly encourage to back up and download working files at the end of your work and upload when you start working again.\n\nDownload files\nUsers can download a file to their local computer by right-clicking on the file and selecting Download.\n\n\n\nTo Download, select a file and right click for Download option\n\n\n\n\nUpload files\nTo upload a file, users can click on the “Upload File” icon, which will open a file browser.\n\n\n\nTo Upload a file, click on the “Upload File” icon"
   },
   {
     "objectID": "index.html#exit-from-the-current-server",
     "href": "index.html#exit-from-the-current-server",
     "title": "User Guide",
     "section": "Exit from the current server",
-    "text": "Exit from the current server\nTo exit from the current server and to go back to the server option page\n\nSelect “Hub Control Panel” from File on the top menu bar.\n\n\n\nSelect “Stop My Server”\n\n\n\n\n\nTo Download, select a file and right click for Download option"
+    "text": "Exit from the current server\nTo exit from the current server and to go back to the server option page\n\nSelect “Hub Control Panel” from File on the top menu bar.\n\n\n\n\nTo go back to the server option page, select “Hub Control Panel”\n\n\n\nSelect “Stop My Server”\n\n\n\n\nSelecting “Stop My Server” takes back to the Server Option page\n\n\n\n\n\nUser can choose a server with preferred software\nR and Python Server Page\nTwo permenant CoastWatch folders shown on the left side of CoastWatch Hub page\nTo Download, select a file and right click for Download option\nTo Upload a file, click on the “Upload File” icon\nTo go back to the server option page, select “Hub Control Panel”\nSelecting “Stop My Server” takes back to the Server Option page"
   },
   {
     "objectID": "howto.html",
