@@ -34,7 +34,7 @@ Once the server is up and running, users can proceed to download the CoastWatch 
 
 We also recommend watching the instructional video created by Eli Holmes, titled "Set up CoastWatch tutorial".  The specific segment that demonstrates the download process starts at the 3:40 minute mark.
 
-[<img src="images/jupyter_github_demo.png" width="50%">](https://youtu.be/FqzaVS7UpHs?start=220 "Now in Android: 55")
+[<img src="images/jupyter_github_demo.png" width="500px">](https://youtu.be/FqzaVS7UpHs?start=220 "Now in Android: 55")
 
 
 For R users, click on RStudio icon from Notebook section to start R Studio. 
