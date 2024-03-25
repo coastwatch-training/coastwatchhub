@@ -1,61 +1,89 @@
 ---
-title: "CoastWatchHub"
+title: "User Guide"
 ---
 
-Welcome to CoastWatch Hub User Page.  
-CoastWatch Hub is a JupyterHub for CoastWatch training course.   On CoastWatch Hub, Python and RStudio are set up for students to run CoastWatch tutorials.
 
-## Access Using Google Mail
+Welcome to the CoastWatch Hub User Guide.
 
-Students can access CoastWatch Hub using Google email address. First, the training coordinator would need to add student's email to the hub list.   Please contact your training coordinator for access.
+CoastWatch Hub is a learning platform based on JupyterHub, designed specifically for the CoastWatch training course.
+
+Within CoastWatch Hub, Python, RStudio, and QGIS are installed, along with all the required packages, ensuring a seamless learning experience.
 
 
-![CoastWatch Hub Login Page](images/login_page.png){width=400}
+## Accessing CoastWatch Hub
 
+
+The CoastWatch training presentation will cover the process of gaining access to the CoastWatch Hub. If you were unable to attend the presentation, we encourage you to reach out to one of your instructors for assistance.
 
 ## Server Options
 
-Once logged in, users can choose a server to work on the training materials. We have two servers: One server has QGIS and the other has Python and R Studio.
 
-![Users will see the Server Option page to choose server from](images/server_options.png){width=700}
+After logging in, users will have the opportunity to select a server to access and work with the CoastWatch training materials. We provide two server options to cater to different software preferences.  Please choose the server that best aligns with your preferred software tools for the training.
 
 
-### Python and R 
-For Python users, click on Python icon from Notebook section to start jupyter notebook.
+* QGIS
+* Python and RStudio
+
+<img src="images/server_options.png" style="border: 1px solid  #999; width: 500px;" />
+
+## Download CoastWatch Tutorials
+
+CoastWatch Tutorials are organized by tutorial topics with R and Python subdirectories that include the tutorials.  
+
+Once the server is up and running, users can proceed to download the CoastWatch tutorials.  One of the instructors will demonstrate how to pull (download) the CoastWatch tutorials from the Github repository.  
+
+We also recommend watching the instructional video created by Eli Holmes, titled "Set up CoastWatch tutorial".  The specific segment that demonstrates the download process starts at the 3:40 minute mark.
+
+[<img src="images/jupyter_github_demo.png" width="50%">](https://youtu.be/FqzaVS7UpHs?start=220 "Now in Android: 55")
+
 
 For R users, click on RStudio icon from Notebook section to start R Studio. 
 
-![Python and R Main Page](images/python_r.png){width=700}
+1.  First make sure you are in the user's home directory 
+
+2. Click on the Git icon -> Clone a Repository 
+
+3. Enter the following URL : https://github.com/coastwatch-training/CoastWatch-Tutorials
+
+4. Click Clone
+
+## R and Python Users  
+
+To access Python tutorials, users can easily find and click on a Python file within the tutorial directory to open it. 
+
+For R tutorials, users first need to launch RStudio and then select an R file from the File panel to open it.
+
+
+<img src="images/python_r.png" style="border:1px solid #999; width: 500px" />
+
 
 ## CoastWatchHub folders
 
 CoastWatch has two main folders for the training session and they can be found on the left side of the server landing page once logged in and the server is started.
 
-There are two permenant folders on CoastWatch Hub: (please ignore lost+found)
-
-* __shared/__ : read only folder.  Training materials will be stored here
-* __shared-public/__ : community folder where users can share files among other users
+* __shared/__ : This is a space where Instructors will share files with students
+* __shared-public/__ : This is a space where students can drop files to share with other students or instructors
 
 ![Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page](images/cw_folders.png){width=400}
 
-In addition to the two folders, user can create temporary folders and files during the session, however, the temporary files and folders will be deleted after the session is over.
-
-:::{.callout-warning}
-Any files outside of Shared and Shared-Public will not be saved.  Please make sure to download all your working files before ending the CoastWatch Hub session.
-:::
 
 ## How to run CoastWatch Tutorials
 * First, student must copy interested files or folders out of the Shared/CoastWatch-Tutorial folder.
 * Once copied to your own space, you can then run the code.
 
 ## How to save working files
-Shared-Public/ folder is not intended to store user's working files.  Students can download and upload files  
+CoastWatch Hub is not intended to store students files, thus it's strongly encourage to back up and download working files at the end of your work and upload when you start working again.
 
-* directly from CoastWatch Hub Page.
-* using git for git repositories
+### Download files
+
+Users can download a file to their local computer by right-clicking on the file and selecting Download.
 
 ![To Download, select a file and right click for Download option](images/download.png){width=400}
 
+
+### Upload files
+
+To upload a file, users can click on the "Upload File" icon, which will open a file browser.
 ![To Upload, Click on the upload button](images/upload.png){width=400 .lightbox}
 
 ## How to exit from a server
