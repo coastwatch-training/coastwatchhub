@@ -56,6 +56,13 @@ For R tutorials, users first need to launch RStudio and then select an R file fr
 
 ![R and Python Server Page](images/python_r.png){width=500 .img_border .lightbox}
 
+## QGIS Users
+To access QGIS software, users need to launch Desktop from the Launcher window and click on the QGIS icon.
+
+![Select Desktop from Laucnher page](images/desktop.png){width=500 .img_border .lightbox}
+
+![Click on the QGIS icon from the desktop](images/qgis.png){width=500 .img_border .lightbox}
+
 
 ## CoastWatchHub folders
 
@@ -66,10 +73,6 @@ CoastWatch has two main folders for the training session and they can be found o
 
 ![Two permenant CoastWatch folders shown on the left side of CoastWatch Hub page](images/cw_folders.png){width=500 .img_border .lightbox}
 
-
-## How to run CoastWatch Tutorials
-* First, student must copy interested files or folders out of the Shared/CoastWatch-Tutorial folder.
-* Once copied to your own space, you can then run the code.
 
 ## How to save working files
 CoastWatch Hub is not intended to store students files, thus it's strongly encourage to back up and download working files at the end of your work and upload when you start working again.
