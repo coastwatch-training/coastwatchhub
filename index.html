@@ -122,9 +122,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#download-files" id="toc-download-files" class="nav-link" data-scroll-target="#download-files">Download files</a></li>
   <li><a href="#upload-files" id="toc-upload-files" class="nav-link" data-scroll-target="#upload-files">Upload files</a></li>
   </ul></li>
-  <li><a href="#how-to-exit-from-a-server" id="toc-how-to-exit-from-a-server" class="nav-link" data-scroll-target="#how-to-exit-from-a-server">How to exit from a server</a></li>
-  <li><a href="#how-to-run-coastwatch-tutorials-1" id="toc-how-to-run-coastwatch-tutorials-1" class="nav-link" data-scroll-target="#how-to-run-coastwatch-tutorials-1">How to run CoastWatch Tutorials</a></li>
-  <li><a href="#how-to" id="toc-how-to" class="nav-link" data-scroll-target="#how-to">How to</a></li>
+  <li><a href="#exit-from-the-current-server" id="toc-exit-from-the-current-server" class="nav-link" data-scroll-target="#exit-from-the-current-server">Exit from the current server</a></li>
   </ul>
 </nav>
     </div>
@@ -215,26 +213,32 @@ ul.task-list li input[type="checkbox"] {
 <p>Users can download a file to their local computer by right-clicking on the file and selecting Download.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/download.png" class="img-fluid figure-img" width="400"></p>
+<p><a href="images/download.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="To Download, select a file and right click for Download option"><img src="images/download.png" class="img-fluid figure-img" width="400" alt="To Download, select a file and right click for Download option"></a></p>
 <figcaption>To Download, select a file and right click for Download option</figcaption>
 </figure>
 </div>
 </section>
 <section id="upload-files" class="level3">
 <h3 class="anchored" data-anchor-id="upload-files">Upload files</h3>
-<p>To upload a file, users can click on the “Upload File” icon, which will open a file browser. <a href="images/upload.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="To Upload, Click on the upload button"><img src="images/upload.png" class="img-fluid" width="400" alt="To Upload, Click on the upload button"></a></p>
+<p>To upload a file, users can click on the “Upload File” icon, which will open a file browser. <img src="images/upload.png" style="border: 1px solid  #999; width: 500px;"></p>
 </section>
 </section>
-<section id="how-to-exit-from-a-server" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-exit-from-a-server">How to exit from a server</h2>
-</section>
-<section id="how-to-run-coastwatch-tutorials-1" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-run-coastwatch-tutorials-1">How to run CoastWatch Tutorials</h2>
-</section>
-<section id="how-to" class="level2">
-<h2 class="anchored" data-anchor-id="how-to">How to</h2>
+<section id="exit-from-the-current-server" class="level2">
+<h2 class="anchored" data-anchor-id="exit-from-the-current-server">Exit from the current server</h2>
+<p>To exit from the current server and to go back to the server option page</p>
+<ol type="1">
+<li>Select “Hub Control Panel” from File on the top menu bar.</li>
+</ol>
+<p><img src="images/exit_server.png" style="border: 1px solid  #999; width: 500px;"></p>
+<ol start="2" type="1">
+<li>Select “Stop My Server”</li>
+</ol>
+<p><img src="images/stop_server.png" style="border: 1px solid  #999; width: 500px;"></p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">To Download, select a file and right click for Download option</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -648,7 +652,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
