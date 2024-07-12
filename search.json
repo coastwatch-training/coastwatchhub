@@ -60,14 +60,7 @@
     "href": "index.html#exit-from-the-current-server",
     "title": "User Guide",
     "section": "Exit from the current server",
-    "text": "Exit from the current server\nTo exit from the current server and to go back to the server option page\n\nSelect “Hub Control Panel” from File on the top menu bar.\n\n\n\n\nTo go back to the server option page, select “Hub Control Panel”\n\n\n\nSelect “Stop My Server”\n\n\n\n\nSelecting “Stop My Server” takes back to the Server Option page\n\n\n\n\n\nUser can choose a server with preferred software\nR and Python Server Page\nSelect Desktop from Laucnher page\nClick on the QGIS icon from the desktop\nTwo permenant CoastWatch folders shown on the left side of CoastWatch Hub page\nTo Download, select a file and right click for Download option\nTo Upload a file, click on the “Upload File” icon\nTo go back to the server option page, select “Hub Control Panel”\nSelecting “Stop My Server” takes back to the Server Option page"
-  },
-  {
-    "objectID": "howto.html",
-    "href": "howto.html",
-    "title": "coastwatchhub",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Exit from the current server\nTo exit from the current server and to go back to the server option page\n\nSelect “Hub Control Panel” from File on the top menu bar.\n\n\n\n\nTo go back to the server option page, select “Hub Control Panel”\n\n\n\nSelect “Stop My Server”\n\n\n\n\nSelecting “Stop My Server” takes back to the Server Option page"
   },
   {
     "objectID": "about.html",
@@ -75,5 +68,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "howto.html",
+    "href": "howto.html",
+    "title": "coastwatchhub",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
