@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>coastwatchhub – Coastwatch Hub</title>
+<title>Intro to JupyterHubs – Coastwatch Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,15 +106,38 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#log-into-the-jupyterhub" id="toc-log-into-the-jupyterhub" class="nav-link active" data-scroll-target="#log-into-the-jupyterhub">Log into the JupyterHub</a></li>
+  <li><a href="#jupyterhub-layout" id="toc-jupyterhub-layout" class="nav-link" data-scroll-target="#jupyterhub-layout">JupyterHub Layout</a>
+  <ul class="collapse">
+  <li><a href="#image-type-py-r-coastwatch" id="toc-image-type-py-r-coastwatch" class="nav-link" data-scroll-target="#image-type-py-r-coastwatch">Image type: Py-R CoastWatch</a></li>
+  <li><a href="#virtual-machine-size" id="toc-virtual-machine-size" class="nav-link" data-scroll-target="#virtual-machine-size">Virtual Machine size</a></li>
+  <li><a href="#start-up" id="toc-start-up" class="nav-link" data-scroll-target="#start-up">Start up</a></li>
+  </ul></li>
+  <li><a href="#open-rstudio" id="toc-open-rstudio" class="nav-link" data-scroll-target="#open-rstudio">Open RStudio</a></li>
+  <li><a href="#end-your-session" id="toc-end-your-session" class="nav-link" data-scroll-target="#end-your-session">End your session</a></li>
+  <li><a href="#restart-your-server" id="toc-restart-your-server" class="nav-link" data-scroll-target="#restart-your-server">Restart your server</a></li>
+  <li><a href="#your-files" id="toc-your-files" class="nav-link" data-scroll-target="#your-files">Your files</a>
+  <ul class="collapse">
+  <li><a href="#will-i-lose-all-of-my-work" id="toc-will-i-lose-all-of-my-work" class="nav-link" data-scroll-target="#will-i-lose-all-of-my-work">Will I lose all of my work?</a></li>
+  </ul></li>
+  <li><a href="#shared-files" id="toc-shared-files" class="nav-link" data-scroll-target="#shared-files">Shared files</a></li>
+  <li><a href="#python-notebook" id="toc-python-notebook" class="nav-link" data-scroll-target="#python-notebook">Python Notebook</a></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">coastwatchhub</h1>
+<h1 class="title">Intro to JupyterHubs</h1>
 </div>
 
 
@@ -128,10 +154,179 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>The NOAA CoastWatch trainings provide optional access to <a href="https://jupyter.org/hub">JupyterHub</a>, a multi-user learning environment featuring Jupyter notebook servers, made possible by the support of the <a href="https://nmfs-openscapes.github.io/">NOAA NMFS OpenScapes</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/nmfs-openscapes.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>NMFS OpenScapes</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Goals
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In this lab, you will get an overview of our JupyterHub</p>
+<ul>
+<li>Log into the JupyterHub</li>
+<li>Understand the JupyterHub Layout</li>
+<li>Understand the directory structure</li>
+<li>Open RStudio</li>
+<li>Restart your JupyterHub server</li>
+<li>Start/Stop your JupyterHub server</li>
+</ul>
+</div>
+</div>
+<section id="log-into-the-jupyterhub" class="level2">
+<h2 class="anchored" data-anchor-id="log-into-the-jupyterhub">Log into the JupyterHub</h2>
+<p>Go to <a href="https://nmfs-openscapes.2i2c.cloud/" class="uri">https://nmfs-openscapes.2i2c.cloud/</a>. Click “Login to continue”. You will be asked to log in with your GitHub Account, if you are not logged in already.</p>
+</section>
+<section id="jupyterhub-layout" class="level2">
+<h2 class="anchored" data-anchor-id="jupyterhub-layout">JupyterHub Layout</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/jhub-layout.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="NMFS OpenScapes JupyterHub Layout"><img src="./images/jhub-layout.png" class="img_border img-fluid figure-img" width="550" alt="NMFS OpenScapes JupyterHub Layout"></a></p>
+<figcaption>NMFS OpenScapes JupyterHub Layout</figcaption>
+</figure>
+</div>
+<section id="image-type-py-r-coastwatch" class="level3">
+<h3 class="anchored" data-anchor-id="image-type-py-r-coastwatch">Image type: Py-R CoastWatch</h3>
+<p>Next you select your image type. We have set up the CoastWatch image that currently includes Python, R, their dependent packages and CoastWatch Utilities.</p>
+</section>
+<section id="virtual-machine-size" class="level3">
+<h3 class="anchored" data-anchor-id="virtual-machine-size">Virtual Machine size</h3>
+<p>You’ll see something similar to this that allows you to choose a large virtual machine if your project needs it. For the tutorials, you will only need the Small Virtual Machine. Please only choose the large machines if you run out of RAM as the larger machines cost us more.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/jhub-servers.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Machine Profiles"><img src="./images/jhub-servers.png" class="img_border img-fluid figure-img" width="550" alt="Machine Profiles"></a></p>
+<figcaption>Machine Profiles</figcaption>
+</figure>
+</div>
+</section>
+<section id="start-up" class="level3">
+<h3 class="anchored" data-anchor-id="start-up">Start up</h3>
+<p>After we select our server type and click on start, JupyterHub will allocate our instance using Amazon Web Services (AWS). This may take several minutes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/spawning.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Jupyterhub Spawning"><img src="./images/spawning.png" class="img_border img-fluid figure-img" width="550" alt="Jupyterhub Spawning"></a></p>
+<figcaption>Jupyterhub Spawning</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="open-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="open-rstudio">Open RStudio</h2>
+<p>When you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don’t see this, go to File &gt; New Launcher.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/jhub-launcher.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Jupyterhub Launcher"><img src="./images/jhub-launcher.png" class="img_border img-fluid figure-img" width="500" alt="Jupyterhub Launcher"></a></p>
+<figcaption>Jupyterhub Launcher</figcaption>
+</figure>
+</div>
+<ul>
+<li>Open RStudio by clicking on the “RStudio” box in the Launcher tab:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/rstudio.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="RStudio"><img src="./images/rstudio.png" class="img_border img-fluid figure-img" width="550" alt="RStudio"></a></p>
+<figcaption>RStudio</figcaption>
+</figure>
+</div>
+<p>We will be mainly using RStudio in this course.</p>
+</section>
+<section id="end-your-session" class="level2">
+<h2 class="anchored" data-anchor-id="end-your-session">End your session</h2>
+<p>When you are finished working for the day it is important to log out of the JupyterHub. When you keep a session active it uses up AWS resources (costs money) and keeps a series of virtual machines deployed.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You log out from the Jupyter Lab tab not the RStudio tab.</p>
+</div>
+</div>
+<p><strong>From the Jupyter Lab tab</strong>, do one of two things to stop the server:</p>
+<ul>
+<li>Log out File -&gt; Log Out and click “Log Out”!</li>
+<li>or File -&gt; Hub Control Panel -&gt; Stop My Server</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Can’t find the Jupyter Lab tab? Go to https://nmfs-openscapes.2i2c.cloud/</p>
+</div>
+</div>
+</section>
+<section id="restart-your-server" class="level2">
+<h2 class="anchored" data-anchor-id="restart-your-server">Restart your server</h2>
+<p>Sometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -&gt; Hub Control Panel -&gt; Stop My Server and then Start My Server. You shouldn’t lose your work unless you were uploading a file.</p>
+</section>
+<section id="your-files" class="level2">
+<h2 class="anchored" data-anchor-id="your-files">Your files</h2>
+<p>When you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is <code>home/jovyan</code>. Everyone has the same home directory but your files are separate and cannot be seen by others.</p>
+<p>There are a number of different ways to create new files. We will practice this in the RStudio lecture.</p>
+<section id="will-i-lose-all-of-my-work" class="level3">
+<h3 class="anchored" data-anchor-id="will-i-lose-all-of-my-work">Will I lose all of my work?</h3>
+<p>Logging out will <strong>NOT</strong> cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.</p>
+</section>
+</section>
+<section id="shared-files" class="level2">
+<h2 class="anchored" data-anchor-id="shared-files">Shared files</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/shared-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Shared folder"><img src="./images/shared-folder.png" class="img_border img-fluid figure-img" width="400" alt="Shared folder"></a></p>
+<figcaption>Shared folder</figcaption>
+</figure>
+</div>
+<p>In the file panel, you will see a folder called <code>shared</code>. These are read-only shared files that we have prepared for you. There are two main folders:</p>
+<ul>
+<li><code>data</code> The folder with data files</li>
+<li><code>2023-Hackbook</code> The full Git repository with the files for https://hackweek-itcoocean.github.io/2023-Hackbook</li>
+</ul>
+<p>You will also see <code>shared-public</code>. This is a read-write folder for you to put files for everyone to see and use. You can create a team folder here for shared data and files. Note, everyone can see and change these so be careful to communicate with your team so multiple people don’t work on the same file at the same time. You can also create folders for each team member and agree not to change other team members files.</p>
+<p>You will also see other folders of Python content for the Python users. We will have a separate introduction to Jupyter Notebooks.</p>
+</section>
+<section id="python-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="python-notebook">Python Notebook</h2>
+<p>Jupyter notebooks are a very common way to share Python code and tutorials. You can open a Jupyter Notebook by clicking on notebook file (.ipnb) from the folder on the left panel:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/jhub-launcher.png" class="img-fluid figure-img"></p>
+<figcaption>Jupyterhub Launcher</figcaption>
+</figure>
+</div>
+</section>
+<section id="faq" class="level2">
+<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
+<p><strong>Can we use Matlab with JupyterHub?</strong> You can use <a href="https://datascience-enthusiast.com/Miscellaneous/Jupyter_R_Python_Julia_Octave.html">Octave kernel</a> as a Matlab replacement. It is open source and free. If you want to integrate Matlab, there is a project to do so <a href="https://github.com/mathworks/jupyter-matlab-proxy">jupyter-matlab-proxy</a></p>
+<p><strong>Why do we have the same home directory as /home/jovyan?</strong> /home/jovyan is the default home directory for ‘jupyter’ based images/dockers. It is the historic home directory for Jupyter deployments.</p>
+<p><strong>Can other users see the files in my /home/jovyan folder?</strong> No, other users can not see your credentials.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/coastwatch-training/CoastWatch-Tutorials?tab=readme-ov-file#readme">Coastwatch Tutorials on GitHub</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -555,6 +750,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
