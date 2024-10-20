@@ -152,9 +152,6 @@ Jupyter notebooks are a very common way to share Python code and tutorials. You 
 
 ## FAQ
 
-**Can we use Matlab with JupyterHub?** You can use [Octave kernel](https://datascience-enthusiast.com/Miscellaneous/Jupyter_R_Python_Julia_Octave.html) as a Matlab replacement. It is open source and free. If you want to integrate Matlab, there is a project to do so [jupyter-matlab-proxy](https://github.com/mathworks/jupyter-matlab-proxy)
-
-
 **Why do we have the same home directory as /home/jovyan?** /home/jovyan is the default home directory for 'jupyter' based images/dockers. It is the historic home directory for Jupyter deployments. 
 
 **Can other users see the files in my /home/jovyan folder?** No, other users can not see your credentials.
