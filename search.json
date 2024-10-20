@@ -81,7 +81,7 @@
     "href": "nmfs-openscapes-jhub.html#faq",
     "title": "Intro to JupyterHubs",
     "section": "FAQ",
-    "text": "FAQ\nCan we use Matlab with JupyterHub? You can use Octave kernel as a Matlab replacement. It is open source and free. If you want to integrate Matlab, there is a project to do so jupyter-matlab-proxy\nWhy do we have the same home directory as /home/jovyan? /home/jovyan is the default home directory for ‘jupyter’ based images/dockers. It is the historic home directory for Jupyter deployments.\nCan other users see the files in my /home/jovyan folder? No, other users can not see your credentials."
+    "text": "FAQ\nWhy do we have the same home directory as /home/jovyan? /home/jovyan is the default home directory for ‘jupyter’ based images/dockers. It is the historic home directory for Jupyter deployments.\nCan other users see the files in my /home/jovyan folder? No, other users can not see your credentials."
   },
   {
     "objectID": "nmfs-openscapes-jhub.html#resources",
