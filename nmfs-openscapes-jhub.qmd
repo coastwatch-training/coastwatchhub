@@ -28,13 +28,8 @@ In this lab, you will get an overview of our JupyterHub
 
 ## Log into the JupyterHub
 
-Go to <https://nmfs-openscapes.2i2c.cloud/>. Click "Login to continue". You will be asked to log in with your GitHub Account, if you are not logged in already.
-
-
-## JupyterHub Layout
-
-![NMFS OpenScapes JupyterHub Layout](./images/jhub-layout.png){width=550px .img_border .lightbox}
-
+Go to <https://nmfs-openscapes.2i2c.cloud/>. Click "Login to continue". 
+You will be asked to log in with your GitHub Account, if you are not logged in already.
 
 ### Image type: Py-R CoastWatch
 
@@ -54,6 +49,27 @@ After we select our server type and click on start, JupyterHub will allocate our
 ![Jupyterhub Spawning](./images/spawning.png){width=550px .img_border .lightbox}
 
 
+## JupyterHub Layout
+
+![NMFS OpenScapes JupyterHub Layout](./images/jhub-layout.png){width=550px .img_border .lightbox}
+
+__Launcher Window__ : This window displays all installed software, such as RStudio or Python, allowing users to launch applications with a click.
+
+
+## Files 
+
+When you start your server, you will have access to your own virtual 
+drive space shown in the __Files and Folder__  section from the JupyterHub Layout. No other users will be able to see or access your files. 
+You can upload files to your virtual drive space and save files here. 
+You can create folders to organize your files. You personal directory is `home/jovyan`. 
+Everyone has the same home directory but your files are separate and cannot be seen by others.
+
+## Open Python Notebook
+
+Clicking on a Python notebook (*.ipynb) file in the __Files and Folders__ section will open the notebook in a new tab within the Launcher page.
+
+![python notebook](./images/notebook.png){width=550px .img_border .lightbox}
+
 ## Open RStudio
 
 When you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don't see this, go to File > New Launcher.
@@ -65,6 +81,23 @@ When you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Laun
 ![RStudio](./images/rstudio.png){width=550px .img_border .lightbox}
 
 We will be mainly using RStudio in this course. 
+
+## Load CoastWatch Tutorials from Github repository
+
+You can download materials from GitHub repositories to your virtual 
+machine by using `Git Clone` from the side navigation bar on the left side of 
+JupyterHub.
+
+
+![GitHub](./images/github.png){width=550px .img_border .lightbox}
+
+Select __Clone a Repository__ and enter the following GitHub repository URL:
+
+**https://github.com/coastwatch-training/CoastWatch-Tutorials**
+
+
+![Clone Repo](./images/clone-repo.png){width=550px .img_border .lightbox}
+
 
 ## End your session
 
@@ -89,11 +122,6 @@ Can't find the Jupyter Lab tab? Go to https://nmfs-openscapes.2i2c.cloud/
 
 Sometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -> Hub Control Panel -> Stop My Server and then Start My Server. You shouldn't lose your work unless you were uploading a file.
 
-## Your files
-
-When you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is `home/jovyan`. Everyone has the same home directory but your files are separate and cannot be seen by others.
-
-There are a number of different ways to create new files. We will practice this in the RStudio lecture.
 
 ### Will I lose all of my work?
 
