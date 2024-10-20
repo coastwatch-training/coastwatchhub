@@ -111,17 +111,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#log-into-the-jupyterhub" id="toc-log-into-the-jupyterhub" class="nav-link active" data-scroll-target="#log-into-the-jupyterhub">Log into the JupyterHub</a></li>
-  <li><a href="#jupyterhub-layout" id="toc-jupyterhub-layout" class="nav-link" data-scroll-target="#jupyterhub-layout">JupyterHub Layout</a>
+  <li><a href="#log-into-the-jupyterhub" id="toc-log-into-the-jupyterhub" class="nav-link active" data-scroll-target="#log-into-the-jupyterhub">Log into the JupyterHub</a>
   <ul class="collapse">
   <li><a href="#image-type-py-r-coastwatch" id="toc-image-type-py-r-coastwatch" class="nav-link" data-scroll-target="#image-type-py-r-coastwatch">Image type: Py-R CoastWatch</a></li>
   <li><a href="#virtual-machine-size" id="toc-virtual-machine-size" class="nav-link" data-scroll-target="#virtual-machine-size">Virtual Machine size</a></li>
   <li><a href="#start-up" id="toc-start-up" class="nav-link" data-scroll-target="#start-up">Start up</a></li>
   </ul></li>
+  <li><a href="#jupyterhub-layout" id="toc-jupyterhub-layout" class="nav-link" data-scroll-target="#jupyterhub-layout">JupyterHub Layout</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files">Files</a></li>
+  <li><a href="#open-python-notebook" id="toc-open-python-notebook" class="nav-link" data-scroll-target="#open-python-notebook">Open Python Notebook</a></li>
   <li><a href="#open-rstudio" id="toc-open-rstudio" class="nav-link" data-scroll-target="#open-rstudio">Open RStudio</a></li>
+  <li><a href="#load-coastwatch-tutorials-from-github-repository" id="toc-load-coastwatch-tutorials-from-github-repository" class="nav-link" data-scroll-target="#load-coastwatch-tutorials-from-github-repository">Load CoastWatch Tutorials from Github repository</a></li>
   <li><a href="#end-your-session" id="toc-end-your-session" class="nav-link" data-scroll-target="#end-your-session">End your session</a></li>
-  <li><a href="#restart-your-server" id="toc-restart-your-server" class="nav-link" data-scroll-target="#restart-your-server">Restart your server</a></li>
-  <li><a href="#your-files" id="toc-your-files" class="nav-link" data-scroll-target="#your-files">Your files</a>
+  <li><a href="#restart-your-server" id="toc-restart-your-server" class="nav-link" data-scroll-target="#restart-your-server">Restart your server</a>
   <ul class="collapse">
   <li><a href="#will-i-lose-all-of-my-work" id="toc-will-i-lose-all-of-my-work" class="nav-link" data-scroll-target="#will-i-lose-all-of-my-work">Will I lose all of my work?</a></li>
   </ul></li>
@@ -185,15 +187,6 @@ Goals
 <section id="log-into-the-jupyterhub" class="level2">
 <h2 class="anchored" data-anchor-id="log-into-the-jupyterhub">Log into the JupyterHub</h2>
 <p>Go to <a href="https://nmfs-openscapes.2i2c.cloud/" class="uri">https://nmfs-openscapes.2i2c.cloud/</a>. Click “Login to continue”. You will be asked to log in with your GitHub Account, if you are not logged in already.</p>
-</section>
-<section id="jupyterhub-layout" class="level2">
-<h2 class="anchored" data-anchor-id="jupyterhub-layout">JupyterHub Layout</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./images/jhub-layout.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="NMFS OpenScapes JupyterHub Layout"><img src="./images/jhub-layout.png" class="img_border img-fluid figure-img" width="550" alt="NMFS OpenScapes JupyterHub Layout"></a></p>
-<figcaption>NMFS OpenScapes JupyterHub Layout</figcaption>
-</figure>
-</div>
 <section id="image-type-py-r-coastwatch" class="level3">
 <h3 class="anchored" data-anchor-id="image-type-py-r-coastwatch">Image type: Py-R CoastWatch</h3>
 <p>Next you select your image type. We have set up the CoastWatch image that currently includes Python, R, their dependent packages and CoastWatch Utilities.</p>
@@ -203,7 +196,7 @@ Goals
 <p>You’ll see something similar to this that allows you to choose a large virtual machine if your project needs it. For the tutorials, you will only need the Small Virtual Machine. Please only choose the large machines if you run out of RAM as the larger machines cost us more.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./images/jhub-servers.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Machine Profiles"><img src="./images/jhub-servers.png" class="img_border img-fluid figure-img" width="550" alt="Machine Profiles"></a></p>
+<p><a href="./images/jhub-servers.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Machine Profiles"><img src="./images/jhub-servers.png" class="img_border img-fluid figure-img" width="550" alt="Machine Profiles"></a></p>
 <figcaption>Machine Profiles</figcaption>
 </figure>
 </div>
@@ -213,18 +206,42 @@ Goals
 <p>After we select our server type and click on start, JupyterHub will allocate our instance using Amazon Web Services (AWS). This may take several minutes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./images/spawning.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Jupyterhub Spawning"><img src="./images/spawning.png" class="img_border img-fluid figure-img" width="550" alt="Jupyterhub Spawning"></a></p>
+<p><a href="./images/spawning.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Jupyterhub Spawning"><img src="./images/spawning.png" class="img_border img-fluid figure-img" width="550" alt="Jupyterhub Spawning"></a></p>
 <figcaption>Jupyterhub Spawning</figcaption>
 </figure>
 </div>
 </section>
+</section>
+<section id="jupyterhub-layout" class="level2">
+<h2 class="anchored" data-anchor-id="jupyterhub-layout">JupyterHub Layout</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/jhub-layout.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="NMFS OpenScapes JupyterHub Layout"><img src="./images/jhub-layout.png" class="img_border img-fluid figure-img" width="550" alt="NMFS OpenScapes JupyterHub Layout"></a></p>
+<figcaption>NMFS OpenScapes JupyterHub Layout</figcaption>
+</figure>
+</div>
+<p><strong>Launcher Window</strong> : This window displays all installed software, such as RStudio or Python, allowing users to launch applications with a click.</p>
+</section>
+<section id="files" class="level2">
+<h2 class="anchored" data-anchor-id="files">Files</h2>
+<p>When you start your server, you will have access to your own virtual drive space shown in the <strong>Files and Folder</strong> section from the JupyterHub Layout. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is <code>home/jovyan</code>. Everyone has the same home directory but your files are separate and cannot be seen by others.</p>
+</section>
+<section id="open-python-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="open-python-notebook">Open Python Notebook</h2>
+<p>Clicking on a Python notebook (*.ipynb) file in the <strong>Files and Folders</strong> section will open the notebook in a new tab within the Launcher page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/notebook.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="python notebook"><img src="./images/notebook.png" class="img_border img-fluid figure-img" width="550" alt="python notebook"></a></p>
+<figcaption>python notebook</figcaption>
+</figure>
+</div>
 </section>
 <section id="open-rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="open-rstudio">Open RStudio</h2>
 <p>When you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don’t see this, go to File &gt; New Launcher.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./images/jhub-launcher.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Jupyterhub Launcher"><img src="./images/jhub-launcher.png" class="img_border img-fluid figure-img" width="500" alt="Jupyterhub Launcher"></a></p>
+<p><a href="./images/jhub-launcher.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Jupyterhub Launcher"><img src="./images/jhub-launcher.png" class="img_border img-fluid figure-img" width="500" alt="Jupyterhub Launcher"></a></p>
 <figcaption>Jupyterhub Launcher</figcaption>
 </figure>
 </div>
@@ -233,11 +250,29 @@ Goals
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./images/rstudio.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="RStudio"><img src="./images/rstudio.png" class="img_border img-fluid figure-img" width="550" alt="RStudio"></a></p>
+<p><a href="./images/rstudio.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="RStudio"><img src="./images/rstudio.png" class="img_border img-fluid figure-img" width="550" alt="RStudio"></a></p>
 <figcaption>RStudio</figcaption>
 </figure>
 </div>
 <p>We will be mainly using RStudio in this course.</p>
+</section>
+<section id="load-coastwatch-tutorials-from-github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="load-coastwatch-tutorials-from-github-repository">Load CoastWatch Tutorials from Github repository</h2>
+<p>You can download materials from GitHub repositories to your virtual machine by using <code>Git Clone</code> from the side navigation bar on the left side of JupyterHub.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/github.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="GitHub"><img src="./images/github.png" class="img_border img-fluid figure-img" width="550" alt="GitHub"></a></p>
+<figcaption>GitHub</figcaption>
+</figure>
+</div>
+<p>Select <strong>Clone a Repository</strong> and enter the following GitHub repository URL:</p>
+<p><strong>https://github.com/coastwatch-training/CoastWatch-Tutorials</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/clone-repo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Clone Repo"><img src="./images/clone-repo.png" class="img_border img-fluid figure-img" width="550" alt="Clone Repo"></a></p>
+<figcaption>Clone Repo</figcaption>
+</figure>
+</div>
 </section>
 <section id="end-your-session" class="level2">
 <h2 class="anchored" data-anchor-id="end-your-session">End your session</h2>
@@ -277,11 +312,6 @@ Tip
 <section id="restart-your-server" class="level2">
 <h2 class="anchored" data-anchor-id="restart-your-server">Restart your server</h2>
 <p>Sometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -&gt; Hub Control Panel -&gt; Stop My Server and then Start My Server. You shouldn’t lose your work unless you were uploading a file.</p>
-</section>
-<section id="your-files" class="level2">
-<h2 class="anchored" data-anchor-id="your-files">Your files</h2>
-<p>When you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is <code>home/jovyan</code>. Everyone has the same home directory but your files are separate and cannot be seen by others.</p>
-<p>There are a number of different ways to create new files. We will practice this in the RStudio lecture.</p>
 <section id="will-i-lose-all-of-my-work" class="level3">
 <h3 class="anchored" data-anchor-id="will-i-lose-all-of-my-work">Will I lose all of my work?</h3>
 <p>Logging out will <strong>NOT</strong> cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.</p>
@@ -291,7 +321,7 @@ Tip
 <h2 class="anchored" data-anchor-id="shared-files">Shared files</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./images/shared-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Shared folder"><img src="./images/shared-folder.png" class="img_border img-fluid figure-img" width="400" alt="Shared folder"></a></p>
+<p><a href="./images/shared-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Shared folder"><img src="./images/shared-folder.png" class="img_border img-fluid figure-img" width="400" alt="Shared folder"></a></p>
 <figcaption>Shared folder</figcaption>
 </figure>
 </div>
@@ -750,7 +780,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

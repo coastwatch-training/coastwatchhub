@@ -11,14 +11,28 @@
     "href": "nmfs-openscapes-jhub.html#log-into-the-jupyterhub",
     "title": "Intro to JupyterHubs",
     "section": "Log into the JupyterHub",
-    "text": "Log into the JupyterHub\nGo to https://nmfs-openscapes.2i2c.cloud/. Click “Login to continue”. You will be asked to log in with your GitHub Account, if you are not logged in already."
+    "text": "Log into the JupyterHub\nGo to https://nmfs-openscapes.2i2c.cloud/. Click “Login to continue”. You will be asked to log in with your GitHub Account, if you are not logged in already.\n\nImage type: Py-R CoastWatch\nNext you select your image type. We have set up the CoastWatch image that currently includes Python, R, their dependent packages and CoastWatch Utilities.\n\n\nVirtual Machine size\nYou’ll see something similar to this that allows you to choose a large virtual machine if your project needs it. For the tutorials, you will only need the Small Virtual Machine. Please only choose the large machines if you run out of RAM as the larger machines cost us more.\n\n\n\nMachine Profiles\n\n\n\n\nStart up\nAfter we select our server type and click on start, JupyterHub will allocate our instance using Amazon Web Services (AWS). This may take several minutes.\n\n\n\nJupyterhub Spawning"
   },
   {
     "objectID": "nmfs-openscapes-jhub.html#jupyterhub-layout",
     "href": "nmfs-openscapes-jhub.html#jupyterhub-layout",
     "title": "Intro to JupyterHubs",
     "section": "JupyterHub Layout",
-    "text": "JupyterHub Layout\n\n\n\nNMFS OpenScapes JupyterHub Layout\n\n\n\nImage type: Py-R CoastWatch\nNext you select your image type. We have set up the CoastWatch image that currently includes Python, R, their dependent packages and CoastWatch Utilities.\n\n\nVirtual Machine size\nYou’ll see something similar to this that allows you to choose a large virtual machine if your project needs it. For the tutorials, you will only need the Small Virtual Machine. Please only choose the large machines if you run out of RAM as the larger machines cost us more.\n\n\n\nMachine Profiles\n\n\n\n\nStart up\nAfter we select our server type and click on start, JupyterHub will allocate our instance using Amazon Web Services (AWS). This may take several minutes.\n\n\n\nJupyterhub Spawning"
+    "text": "JupyterHub Layout\n\n\n\nNMFS OpenScapes JupyterHub Layout\n\n\nLauncher Window : This window displays all installed software, such as RStudio or Python, allowing users to launch applications with a click."
+  },
+  {
+    "objectID": "nmfs-openscapes-jhub.html#files",
+    "href": "nmfs-openscapes-jhub.html#files",
+    "title": "Intro to JupyterHubs",
+    "section": "Files",
+    "text": "Files\nWhen you start your server, you will have access to your own virtual drive space shown in the Files and Folder section from the JupyterHub Layout. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is home/jovyan. Everyone has the same home directory but your files are separate and cannot be seen by others."
+  },
+  {
+    "objectID": "nmfs-openscapes-jhub.html#open-python-notebook",
+    "href": "nmfs-openscapes-jhub.html#open-python-notebook",
+    "title": "Intro to JupyterHubs",
+    "section": "Open Python Notebook",
+    "text": "Open Python Notebook\nClicking on a Python notebook (*.ipynb) file in the Files and Folders section will open the notebook in a new tab within the Launcher page.\n\n\n\npython notebook"
   },
   {
     "objectID": "nmfs-openscapes-jhub.html#open-rstudio",
@@ -26,6 +40,13 @@
     "title": "Intro to JupyterHubs",
     "section": "Open RStudio",
     "text": "Open RStudio\nWhen you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don’t see this, go to File &gt; New Launcher.\n\n\n\nJupyterhub Launcher\n\n\n\nOpen RStudio by clicking on the “RStudio” box in the Launcher tab:\n\n\n\n\nRStudio\n\n\nWe will be mainly using RStudio in this course."
+  },
+  {
+    "objectID": "nmfs-openscapes-jhub.html#load-coastwatch-tutorials-from-github-repository",
+    "href": "nmfs-openscapes-jhub.html#load-coastwatch-tutorials-from-github-repository",
+    "title": "Intro to JupyterHubs",
+    "section": "Load CoastWatch Tutorials from Github repository",
+    "text": "Load CoastWatch Tutorials from Github repository\nYou can download materials from GitHub repositories to your virtual machine by using Git Clone from the side navigation bar on the left side of JupyterHub.\n\n\n\nGitHub\n\n\nSelect Clone a Repository and enter the following GitHub repository URL:\nhttps://github.com/coastwatch-training/CoastWatch-Tutorials\n\n\n\nClone Repo"
   },
   {
     "objectID": "nmfs-openscapes-jhub.html#end-your-session",
@@ -39,14 +60,7 @@
     "href": "nmfs-openscapes-jhub.html#restart-your-server",
     "title": "Intro to JupyterHubs",
     "section": "Restart your server",
-    "text": "Restart your server\nSometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -&gt; Hub Control Panel -&gt; Stop My Server and then Start My Server. You shouldn’t lose your work unless you were uploading a file."
-  },
-  {
-    "objectID": "nmfs-openscapes-jhub.html#your-files",
-    "href": "nmfs-openscapes-jhub.html#your-files",
-    "title": "Intro to JupyterHubs",
-    "section": "Your files",
-    "text": "Your files\nWhen you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is home/jovyan. Everyone has the same home directory but your files are separate and cannot be seen by others.\nThere are a number of different ways to create new files. We will practice this in the RStudio lecture.\n\nWill I lose all of my work?\nLogging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
+    "text": "Restart your server\nSometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -&gt; Hub Control Panel -&gt; Stop My Server and then Start My Server. You shouldn’t lose your work unless you were uploading a file.\n\nWill I lose all of my work?\nLogging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
   },
   {
     "objectID": "nmfs-openscapes-jhub.html#shared-files",
